@@ -7,7 +7,7 @@
       <sourceFolder url="file://$MODULE_DIR$/uipy/CustomWidget" isTestSource="false" />
       <excludeFolder url="file://$MODULE_DIR$/venv" />
     </content>
-    <orderEntry type="inheritedJdk" />
+    <orderEntry type="jdk" jdkName="PYSIDE2_PYTHON" jdkType="Python SDK" />
     <orderEntry type="sourceFolder" forTests="false" />
   </component>
 </module>

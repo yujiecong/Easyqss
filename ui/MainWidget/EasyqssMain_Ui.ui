@@ -6,8 +6,8 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>932</width>
-    <height>581</height>
+    <width>1356</width>
+    <height>735</height>
    </rect>
   </property>
   <property name="windowTitle">
@@ -20,7 +20,7 @@ font: 75 10pt &quot;微软雅黑&quot;;
 color: rgb(191, 191, 191);</string>
   </property>
   <widget class="QWidget" name="centralwidget">
-   <layout class="QHBoxLayout" name="horizontalLayout" stretch="1,1">
+   <layout class="QHBoxLayout" name="horizontalLayout" stretch="1,0">
     <property name="spacing">
      <number>0</number>
     </property>
@@ -47,6 +47,159 @@ color: rgb(191, 191, 191);</string>
       <property name="frameShadow">
        <enum>QFrame::Raised</enum>
       </property>
+      <layout class="QGridLayout" name="gridLayout">
+       <item row="6" column="3">
+        <widget class="QGroupBox" name="groupBox">
+         <property name="title">
+          <string>GroupBox</string>
+         </property>
+        </widget>
+       </item>
+       <item row="0" column="2">
+        <widget class="QCheckBox" name="checkBox">
+         <property name="text">
+          <string>CheckBox</string>
+         </property>
+        </widget>
+       </item>
+       <item row="0" column="1">
+        <widget class="QRadioButton" name="radioButton">
+         <property name="text">
+          <string>RadioButton</string>
+         </property>
+        </widget>
+       </item>
+       <item row="1" column="0" colspan="3">
+        <widget class="QListWidget" name="listWidget"/>
+       </item>
+       <item row="0" column="0">
+        <widget class="QPushButton" name="pushButton">
+         <property name="text">
+          <string>PushButton</string>
+         </property>
+        </widget>
+       </item>
+       <item row="1" column="3" colspan="2">
+        <widget class="QTableWidget" name="tableWidget"/>
+       </item>
+       <item row="0" column="3">
+        <widget class="QLabel" name="label">
+         <property name="text">
+          <string>TextLabel</string>
+         </property>
+        </widget>
+       </item>
+       <item row="3" column="0" rowspan="2" colspan="3">
+        <widget class="QTreeWidget" name="treeWidget">
+         <column>
+          <property name="text">
+           <string notr="true">1</string>
+          </property>
+         </column>
+        </widget>
+       </item>
+       <item row="5" column="0" rowspan="2" colspan="2">
+        <widget class="QStackedWidget" name="stackedWidget">
+         <property name="currentIndex">
+          <number>1</number>
+         </property>
+         <widget class="QWidget" name="page_3"/>
+         <widget class="QWidget" name="page_4"/>
+        </widget>
+       </item>
+       <item row="7" column="1" colspan="2">
+        <widget class="QLineEdit" name="lineEdit"/>
+       </item>
+       <item row="3" column="3" rowspan="2">
+        <widget class="QScrollArea" name="scrollArea">
+         <property name="widgetResizable">
+          <bool>true</bool>
+         </property>
+         <widget class="QWidget" name="scrollAreaWidgetContents">
+          <property name="geometry">
+           <rect>
+            <x>0</x>
+            <y>0</y>
+            <width>254</width>
+            <height>183</height>
+           </rect>
+          </property>
+         </widget>
+        </widget>
+       </item>
+       <item row="9" column="0" colspan="5">
+        <widget class="QProgressBar" name="progressBar">
+         <property name="value">
+          <number>24</number>
+         </property>
+        </widget>
+       </item>
+       <item row="7" column="4">
+        <widget class="QPlainTextEdit" name="plainTextEdit_2"/>
+       </item>
+       <item row="7" column="3">
+        <widget class="QTextEdit" name="textEdit"/>
+       </item>
+       <item row="0" column="4">
+        <widget class="QLCDNumber" name="lcdNumber"/>
+       </item>
+       <item row="5" column="2" colspan="2">
+        <widget class="QWidget" name="widget" native="true"/>
+       </item>
+       <item row="6" column="4">
+        <widget class="QTabWidget" name="tabWidget">
+         <property name="currentIndex">
+          <number>1</number>
+         </property>
+         <widget class="QWidget" name="tab">
+          <attribute name="title">
+           <string>Tab 1</string>
+          </attribute>
+         </widget>
+         <widget class="QWidget" name="tab_2">
+          <attribute name="title">
+           <string>Tab 2</string>
+          </attribute>
+         </widget>
+        </widget>
+       </item>
+       <item row="3" column="4" rowspan="2">
+        <widget class="QToolBox" name="toolBox">
+         <property name="currentIndex">
+          <number>0</number>
+         </property>
+         <widget class="QWidget" name="page">
+          <property name="geometry">
+           <rect>
+            <x>0</x>
+            <y>0</y>
+            <width>256</width>
+            <height>125</height>
+           </rect>
+          </property>
+          <attribute name="label">
+           <string>Page 1</string>
+          </attribute>
+         </widget>
+         <widget class="QWidget" name="page_2">
+          <property name="geometry">
+           <rect>
+            <x>0</x>
+            <y>0</y>
+            <width>256</width>
+            <height>125</height>
+           </rect>
+          </property>
+          <attribute name="label">
+           <string>Page 2</string>
+          </attribute>
+         </widget>
+        </widget>
+       </item>
+       <item row="7" column="0">
+        <widget class="QComboBox" name="comboBox"/>
+       </item>
+      </layout>
      </widget>
     </item>
    </layout>
@@ -56,8 +209,8 @@ color: rgb(191, 191, 191);</string>
     <rect>
      <x>0</x>
      <y>0</y>
-     <width>932</width>
-     <height>25</height>
+     <width>1356</width>
+     <height>22</height>
     </rect>
    </property>
    <widget class="QMenu" name="menu">
